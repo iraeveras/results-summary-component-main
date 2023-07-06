@@ -1,0 +1,249 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 1056px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 636px;
+    min-height: 440px;
+    box-shadow: 4px 4px 15px hsl(221, 100%, 96%);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.body-result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 318px;
+    height: 440px;
+    background: linear-gradient(hsl(234, 85%, 45%), hsl(252, 100%, 67%));
+    border-radius: 20px;
+}
+
+.content-result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+.content-body-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70%;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.circle-result {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(hsl(234, 85%, 45%), hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
+}
+
+.content-circle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.number-circle-result-01, 
+.number-circle-result-02,
+.great {
+    width: 100%;
+    text-align: center;
+}
+
+.number-circle-result-01 {
+    font-size: 38px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+}
+
+.number-circle-result-02 {
+    font-size: 10px;
+    color: hsl(241, 100%, 89%);
+}
+
+.great {
+    color: hsl(221, 100%, 96%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content-text {
+    width: 170px;
+    text-align: center;
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
+}
+
+.body-sumary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 318px;
+    height: 440px;
+}
+
+.content-sumary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-sumary {
+    width: 100%;
+    font-weight: 800;
+}
+
+.content-body-sumary {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content-result, 
+.content-sumary {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    gap: 10px;
+    width: 100%;
+}
+
+.sumary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-reaction,
+.content-memory,
+.content-verbal,
+.content-visual {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.content-reaction {
+    background-color: hsl(0, 81%, 94%);
+}
+
+.content-memory {
+    background-color: hsl(38, 71%, 93%);
+}
+
+.content-verbal {
+    background-color: hsl(167, 64%, 95%);
+}
+
+.content-visual {
+    background-color: hsl(235, 43%, 95%);
+}
+
+.text-reaction {
+    color: hsl(0, 100%, 67%);
+    font-weight: 800;
+}
+.text-memory {
+    color: hsl(39, 100%, 56%);
+    font-weight: 800;
+}
+
+.text-verbal {
+    color: hsl(166, 100%, 37%);
+    font-weight: 800;
+}
+.text-visual {
+    color: hsl(234, 85%, 45%);
+    font-weight: 800;
+}
+
+.text-reaction,
+.text-memory,
+.text-verbal,
+.text-visual {
+    width: 80%;
+}
+
+.num-reaction, 
+.num-memory, 
+.num-verbal, 
+.num-visual {
+    width: 130px;
+    text-align: right;
+    color: hsl(224, 30%, 27%);
+}
+
+.num-reaction span,
+.num-memory span,
+.num-verbal span,
+.num-visual span {
+    font-weight: 800;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+}
+
+.button button {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: hsl(241, 100%, 89%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
